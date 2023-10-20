@@ -42,12 +42,13 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-col w-full gap-3 sm:flex-row">
-          <Button type="button" title="Download App" variant="btn_green" />
+          <Button type="button" title="Download App" variant="btn_green" full />
           <Button
             type="button"
             title="How we work?"
             icon="/play.svg"
             variant="btn_white_text"
+            full
           />
         </div>
       </div>
